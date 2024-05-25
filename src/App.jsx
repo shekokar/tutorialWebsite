@@ -4,7 +4,7 @@ import Home from "./components/Home";
 const theme = {
 	global: {
 		colors: {
-			brand: "#ff91a4",
+			brand: "#142a60",
 		},
 		font: {
 			family: "Roboto",

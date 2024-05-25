@@ -1,6 +1,8 @@
-import { Box, Button, Heading, Paragraph, Text } from "grommet";
+import { Box, Button, Carousel, Grid, Heading, Paragraph, Text } from "grommet";
 import data from "../data/course.json";
+import testimonialData from "../data/testimonials.json";
 import { useEffect, useState } from "react";
+import Testimonial from "./Testimonial";
 
 const Main = () => {
 	const [classId, setClassId] = useState(8);
@@ -58,7 +60,7 @@ const Main = () => {
 							setClassId(8);
 						}}
 						primary
-						label="Class 8"
+						label="Class VIII"
 					/>
 					<Button
 						onClick={(e) => {
@@ -66,7 +68,7 @@ const Main = () => {
 							setClassId(9);
 						}}
 						primary
-						label="Class 9"
+						label="Class IX"
 					/>
 					<Button
 						onClick={(e) => {
@@ -74,7 +76,7 @@ const Main = () => {
 							setClassId(10);
 						}}
 						primary
-						label="Class 10"
+						label="Class X"
 					/>
 				</Box>
 				{details.map((detail) => (
@@ -82,6 +84,51 @@ const Main = () => {
 						{detail}
 					</Paragraph>
 				))}
+				<Paragraph fill margin={"small"}></Paragraph>
+			</Box>
+
+			<br />
+			<Box
+				round="small"
+				pad={"medium"}
+				background={"light-2"}
+				elevation="large"
+			>
+				<Heading level={2} alignSelf="center">
+					Testimonials
+				</Heading>
+				<Carousel fill controls={false} play={5000}>
+					<Grid
+						rows={[1]}
+						columns={["1/2", "1/2"]}
+						areas={[
+							{ name: "first", start: [0, 0], end: [0, 0] },
+							{ name: "second", start: [1, 0], end: [1, 0] },
+						]}
+					>
+						<Box pad="small" gridArea="first">
+							<Testimonial />
+						</Box>
+						<Box pad="small" gridArea="second">
+							<Testimonial />
+						</Box>
+					</Grid>
+					<Grid
+						rows={[1]}
+						columns={["1/2", "1/2"]}
+						areas={[
+							{ name: "first", start: [0, 0], end: [0, 0] },
+							{ name: "second", start: [1, 0], end: [1, 0] },
+						]}
+					>
+						<Box pad="small" gridArea="first">
+							<Testimonial />
+						</Box>
+						<Box pad="small" gridArea="second">
+							<Testimonial />
+						</Box>
+					</Grid>
+				</Carousel>
 				<Paragraph fill margin={"small"}></Paragraph>
 			</Box>
 		</>

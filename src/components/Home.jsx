@@ -1,23 +1,27 @@
-import { Anchor, Box, Footer, Grid, Page, PageHeader, Text } from "grommet";
+import {
+	Anchor,
+	Box,
+	Footer,
+	Grid,
+	Image,
+	Page,
+	PageHeader,
+	Text,
+} from "grommet";
 import NavBar from "../NavBar";
 import ImgCarousel from "./ImgCarousel";
-import ContactUs from "./ContactUs";
 import Main from "./Main";
 import GetInTouch from "./GetInTouch";
+import logo from "../assets/logo.png";
 
 const Home = () => {
 	return (
 		<Page kind={"full"}>
 			<NavBar>
-				<Text weight={"bold"} size="large">
-					Bhanu Tutorials
-				</Text>
+				<Image src={logo} width={"20%"} />
 			</NavBar>
 			<Grid
-				// fill="horizontal"
-				// height={"100vh"}
-				// gap={"xxsmall"}
-				rows={["45vh", "auto"]}
+				rows={["45vh", "auto", "auto"]}
 				columns={["3/4", "1/4"]}
 				areas={[
 					{ name: "carousel", start: [0, 0], end: [1, 0] },
@@ -33,33 +37,13 @@ const Home = () => {
 				</Box>
 				<Box
 					pad={"medium"}
-					height={"auto"}
+					height={"100%"}
 					// background={"dark-2"}
 					gridArea="getInTouch"
 				>
 					<GetInTouch />
 				</Box>
 			</Grid>
-
-			{/* <PageContent>
-				<Box
-					height={"medium"}
-					width={"xlarge"}
-					style={{ margin: "auto", paddingTop: "1%" }}
-				>
-					<Carousel play={3000}>
-						<Image
-							fit="cover"
-							src="//v2.grommet.io/assets/Wilderpeople_Ricky.jpg"
-						/>
-						<Image fit="cover" src="//v2.grommet.io/assets/IMG_4245.jpg" />
-						<Image fit="cover" src="//v2.grommet.io/assets/IMG_4210.jpg" />
-					</Carousel>
-				</Box>
-
-
-
-			</PageContent> */}
 		</Page>
 	);
 };
