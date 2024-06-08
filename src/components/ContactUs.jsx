@@ -1,5 +1,6 @@
 import { Avatar, Box, Heading, Text } from "grommet";
 import { useState } from "react";
+import photo from "../assets/bhanu_img.jpg";
 
 const ContactUs = () => {
 	const [value, setValue] = useState({});
@@ -14,13 +15,10 @@ const ContactUs = () => {
 				elevation="large"
 			>
 				<Heading level={3}>Contact Us</Heading>
-				<Avatar
-					margin={"xsmall"}
-					src="//s.gravatar.com/avatar/b7fb138d53ba0f573212ccce38a7c43b?s=80"
-				/>
+				<Avatar margin={"xsmall"} src={photo} />
 				<Text weight={"bold"}>Bhanu Subramaniam</Text>
-				<Text>+91 12345 67890</Text>
-				<Text>pearlacademy@gmail.com</Text>
+				<Text>+91 77100 33408 / +91 82910 73164 / +91 73040 06899</Text>
+				<Text>pearlacademyclasses@gmail.com</Text>
 			</Box>
 		</>
 	);
