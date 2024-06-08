@@ -18,6 +18,12 @@ const Main = () => {
 	const [classId, setClassId] = useState(1);
 	const [leftTestimonials, setLeftTestimonials] = useState([]);
 	const [rightTestimonials, setRightTestimonials] = useState([]);
+	const [aboutUs, setAboutUs] = useState([
+		"Qualified and experienced faculty from one of the finest schools in Thane.",
+		"All subjects under one roof.",
+		"Small batch size for personalized coaching.",
+		"Regular tests, advanced notes and individual attention will be prioritized.",
+	]);
 	const subjects = [
 		["Mathematics", "Biology", "Physics", "Chemistry", "English", "Marathi"],
 		[
@@ -64,23 +70,17 @@ const Main = () => {
 					<Heading level={2} alignSelf="center">
 						About Us
 					</Heading>
+					{/* {aboutUs.map((text) => (
+						<Text>{text}</Text>
+					))} */}
 					<Text>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Elementum tempus egestas sed sed risus pretium quam vulputate
-						dignissim. Nibh sit amet commodo nulla facilisi nullam vehicula
-						ipsum a. Ac tortor dignissim convallis aenean et tortor at. Nullam
-						non nisi est sit amet. Feugiat in fermentum posuere urna nec
-						tincidunt. Sit amet nisl purus in mollis. Et ultrices neque ornare
-						aenean. Lobortis scelerisque fermentum dui faucibus. Donec
-						adipiscing tristique risus nec feugiat in fermentum. Vestibulum
-						lectus mauris ultrices eros in cursus turpis massa tincidunt. Enim
-						tortor at auctor urna nunc id cursus metus aliquam. Donec ultrices
-						tincidunt arcu non sodales neque sodales ut. Pretium vulputate
-						sapien nec sagittis aliquam malesuada bibendum arcu. Donec enim diam
-						vulputate ut pharetra sit amet aliquam. Maecenas ultricies mi eget
-						mauris pharetra et ultrices. Malesuada fames ac turpis egestas.
-						Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla.
+						Our institution boasts a qualified and experienced faculty from one
+						of the finest schools in Thane, ensuring top-notch education. We
+						offer all subjects under one roof, providing a comprehensive
+						learning experience. With small batch sizes, we prioritize
+						personalized coaching to cater to individual student needs.
+						Additionally, regular tests, advanced notes, and individual
+						attention are key components of our teaching methodology.
 					</Text>
 				</Box>
 				<br />
