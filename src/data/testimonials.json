@@ -1,5 +1,6 @@
 [
 	{
+		"id": 0,
 		"name": "Ojas",
 		"batch": "Vaidya",
 		"school": "Smt. Sulochanadevi Singhania School",
@@ -8,6 +9,7 @@
 		"review": "Very Good and Helpful for doubt solving and clearing concepts"
 	},
 	{
+		"id": 1,
 		"name": "Seema Lele",
 		"batch": "2023-24",
 		"school": "Smt. Sulochanadevi Singhania School",
@@ -16,6 +18,7 @@
 		"review": "Bhanu Ma'am and Shweta Ma'am have been a guiding force all throughout. Heartfelt gratitude to both the teachers"
 	},
 	{
+		"id": 2,
 		"name": "Prathamesh Kashelkar",
 		"batch": "2023-24",
 		"school": "Smt sulochanadevi singhania school",
@@ -24,6 +27,7 @@
 		"review": "Extremely good and friendly way of explaining"
 	},
 	{
+		"id": 3,
 		"name": "Mrs. Sheetal Sohoni",
 		"batch": "2023-2024",
 		"school": "Smt. Sulochanadevi Singhania School",
@@ -32,6 +36,7 @@
 		"review": "Teachers take tremendous efforts and push students to excel. This was really motivating."
 	},
 	{
+		"id": 4,
 		"name": "Prathamesh Kashelkar",
 		"batch": "2023 24",
 		"school": "Smt. Sulochnadevi Singhania School",
@@ -40,14 +45,16 @@
 		"review": "Good"
 	},
 	{
+		"id": 5,
 		"name": "Sheetal Sonje",
 		"batch": "2023-24",
 		"school": "Smt. Sulochanadevi Singhania School",
 		"subject": "Mathematics, Biology",
 		"rating": 5,
-		"review": "The teachers were excellent and really gel with students. Along with discipline students also enjoy the classes. Concepts clearing, doubt solving, support given during the exams till late nights was commendable.\nNo matter how many times student asks his doubt that many times his doubts are cleared. Most important no teacher looks down on any student or humilate any one. All kids are same for these teachers. This being the main reason why even students look forward for going to classes."
+		"review": "The teachers were excellent and really gel with students. Along with discipline students also enjoy the classes. Concepts clearing, doubt solving, support given during the exams till late nights was commendable."
 	},
 	{
+		"id": 6,
 		"name": "Ananya Tiwari",
 		"batch": "2023 - 24",
 		"school": "Smt. Sulochanadevi Singhania School",
@@ -56,11 +63,12 @@
 		"review": "My experience with your Academy was very satisfying."
 	},
 	{
+		"id": 7,
 		"name": "Anaya Dsouza",
 		"batch": "2023-2024",
 		"school": "Smt Sulochanadevi Singhania School",
 		"subject": "Environmental Science",
 		"rating": 5,
-		"review": "I enrolled my daughter Anaya for Bhanu Mam’s class and with her guidance and support my daughter scored 100 /100in EVS. Bhanu mam is an excellent teacher she gives personal attention. . She is very well experienced and she guided my daughter to do well that she was able to score full in the subject. Mam provided notes and regularly practiced worksheets and past papers. She made my daughter very confident in the subject ."
+		"review": "I enrolled my daughter Anaya for Bhanu Mam’s class and with her guidance and support my daughter scored 100 /100in EVS. Bhanu mam is an excellent teacher she gives personal attention."
 	}
 ]

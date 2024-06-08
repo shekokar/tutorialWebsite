@@ -1,16 +1,23 @@
-import { Card, CardBody, CardFooter, CardHeader } from "grommet";
+import {
+	Card,
+	CardBody,
+	CardFooter,
+	CardHeader,
+	Paragraph,
+	Text,
+} from "grommet";
 
-const Testimonial = () => {
+const Testimonial = ({ data }) => {
 	return (
-		<Card background="light-1">
+		<Card height={"small"} background="light-1">
 			<CardHeader pad="small">
-				<b>Student First</b>
+				<b>{data.name}</b>
 			</CardHeader>
-			<CardBody pad="small">
-				Very Good and Helpful for doubt solving and clearing concepts
+			<CardBody height={"medium"} pad="small">
+				{data.review}
 			</CardBody>
-			<CardFooter pad={"small"} background="light-2">
-				<i>ICSE 2023-24</i>
+			<CardFooter height={"auto"} pad={"small"} background="light-2">
+				<i>{data.batch}</i>
 			</CardFooter>
 		</Card>
 	);
